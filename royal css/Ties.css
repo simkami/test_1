@@ -1,0 +1,197 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  font-family: sans-serif;
+  font-size: 14pt;
+  background: rgb(189, 158, 158);
+  color: white;
+  margin: 0;
+
+  }
+  
+.grop{
+	display: grid;
+	grid-template-areas:
+   "logo logo logo logo" 
+  "spa spa spa spa"
+ "rti1 rti2 rti3 rti4 "
+ "spa spa spa spa"
+ " rti5 rti6 rti7 rti8 "
+ "spa spa spa spa"
+ " rti9 rti10 rti11 rti12"
+ "spa spa spa spa"
+" rti13 rti14 rti15 rti16"
+"spa spa spa spa";
+ 
+	 grid-template-rows: 200px 100px 200px 100px 200px 100px 200px 100px 200px; 
+	grid-template-columns:25% 25% 25% 25%;
+	grid-gap:0px;
+height: 10px;
+margin-left: 0px;
+}
+
+/* #spa{
+  grid-area: spa;
+  background: fuchsia;
+} */
+
+
+.logo{
+  grid-area: logo;
+  border: 4px solid slategray;
+  background-image: url(../logo/logo-removebg-preview.png);
+}
+
+
+
+#a1{
+  grid-area:rti1; 
+  border: 4px solid slategray;
+}
+#a1 div{
+  grid-area:rti1; 
+  background-image: url(../imge/tia/01.jpg);
+}
+#a2{
+ grid-area:rti2;
+ border: 4px solid slategray;
+}
+#a2 div{
+  grid-area:rti2;
+  background-image: url(../imge/tia/01.jpg);
+  border: 4px solid slategray;
+  }
+#a3{
+ grid-area:rti3;
+}
+#a3 div{
+  background-image: url(../imge/tia/01.jpg);
+  }
+#a4{
+ grid-area:rti4;
+}
+#a4 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a5{
+ grid-area:rti5;
+}
+#a5 div {
+  background-image: url(../imge/tia/01.jpg);
+}
+#a6{
+ grid-area:rti6;
+}
+#a6 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+
+#a7{
+ grid-area:rti7;
+}
+#a7 div {
+  background-image: url(../imge/tia/01.jpg);
+}
+#a8{
+ grid-area:rti8;
+}
+#a8 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a9{
+grid-area:rti9;
+}
+#a9 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a10{
+ grid-area:rti10;
+}
+#a10 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+
+#a11{
+   grid-area:rti11;
+}
+#a11 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+
+
+#a12{
+   grid-area:rti12;
+}
+#a12 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a13{
+   grid-area:rti13;
+}
+#a13 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a14{
+   grid-area:rti14;
+}
+#a14 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a15{
+   grid-area:rti15;
+}
+#a15 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+#a16{
+   grid-area:rti16;
+}
+#a16 div{
+  background-image: url(../imge/tia/01.jpg);
+}
+/* #a17{
+  background: deeppink;
+   grid-area:rti17;
+}
+
+#a18{
+  background: deeppink;
+   grid-area:rti18;
+}
+
+#a19{
+  background: deeppink;
+   grid-area:rti19;
+}
+
+#a20{
+  background: deeppink;
+   grid-area:rti20;
+} */
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+body{
+    background: silver;
+}
+.wrapper {
+	display: grid;
+	grid-template-areas:
+  /* "logo logo logo logo"  */
+    "logo logo logo menu"
+    "img-1 img-1 img-1 img-1 "
+    "text-2 text-2 img-2 img-2"
+    "img-3 img-3 text-3 text-3"
+    "section aside nav nav"
+   "footer footer footer footer";
+
+   
+	 grid-template-rows: 200px 800px 400px 400px 300px 16px; 
+	grid-template-columns: 30% 30% 30% 10%;
+	grid-gap: 0px;
+    height: 10px;
+  margin-left: 0px;
+}
+
+
+.logo{
+    grid-area: logo;
+    text-align: center;
+     width: 100%;
+ background-image: url(../logo/logo.png); 
+}
+
+
+
+.link-header{
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    padding: 0px;
+    display:inline-block;
+
+}
+
+  #fga{
+    grid-area: menu;
+    z-index: 99;
+
+  }
+ 
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width:10%;
+  display: none;
+ 
+}
+ul li ul li { 
+  background: rgb(151, 16, 16); 
+  display: block; 
+  margin: 0;
+  padding: 0;
+ 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Address {
+  grid-area: nav;
+  /* background: palegreen; */
+  text-align: center;
+  padding: 10%;
+}
+
+.Address a{
+text-decoration: none; 
+color: white;
+}
+
+
+.Social-Networks{
+/* padding: 20%; */
+padding-top: 30%;
+}
+
+section {
+  grid-area: section;
+  /* background: palevioletred; */
+  justify-content: center;
+  padding: 10%;
+}
+
+aside {
+  grid-area: aside;
+  /* background: peru; */
+  text-align: center;
+  grid-template-columns:40%;
+  padding: 10%;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+  text-align: center;
+} 
+footer a {
+text-decoration: none; 
+color: white;
+}
